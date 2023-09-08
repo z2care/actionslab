@@ -1,0 +1,32 @@
+# Site settings
+name: 松子的博客
+email: z2care at gmail dot com
+author: Zarey C.Y. Chang
+url: https://z2care.github.io
+resume_site: https://z2care.github.io/me/
+github: https://github.com/z2care/
+baseurl: ""
+description: 当你有了责任感，就值得被托付
+motto: 严于律己，宽以待人
+banner: 江南皮革长倒闭了
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+excerpt_separator:  '<!-- more -->'
+paginate: 8
+paginate_path: "page:num"
+plugins: [jekyll-paginate]
+plugins_dir: ./_plugins
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+github_username: z2care
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+FB:
+ comments:
+   provider: disqus
+gitalk:
+  owner: z2care
+  repo: z2care.github.io
+  clientID: 3b962d46bab20f713630
+  clientSecret: 32365f06df4cceb10fa60ca61ddb30bc14db7d29
